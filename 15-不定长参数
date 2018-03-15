@@ -1,0 +1,12 @@
+def test(a,b,*args,**kwargs):
+    print("-"*10)
+    print(a)
+    print(b)
+    print(args)
+    print(kwargs)
+    result = a+b
+    for num in args:
+        result += num
+    print("result:%d"%result)
+    
+test(11,22,33,44,55)
