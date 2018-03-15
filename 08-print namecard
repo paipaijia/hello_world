@@ -1,0 +1,12 @@
+#coding = utf-8
+#1.使用input获取信息
+name = input("请输入你的名字")
+qq = input("请输入你的qq")
+school = input("请输入你的学校")
+
+#2.使用print打印输出
+print("===============")
+print("name:%s"%name)
+print("qq:%s"%qq)
+print("school:%s"%school)
+print("===============")
