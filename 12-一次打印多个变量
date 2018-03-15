@@ -1,0 +1,5 @@
+name =" ppj"
+age = 24 
+addr = "达濠"
+
+print("姓名：%s，年龄：%d，地址：%s"%(name,age,addr))
