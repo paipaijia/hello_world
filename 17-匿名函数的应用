@@ -1,0 +1,7 @@
+def test(a,b,func):
+    result = func(a,b)
+    print("result:%d"%result)
+    
+func = eval(input("请输入函数："))   # eval去除掉input输入的字符串类型的双引号
+
+test(11,22,func)
