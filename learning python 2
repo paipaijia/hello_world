@@ -1,0 +1,11 @@
+#-*- coding:utf-8 -*-
+
+'''
+#coding= utf -8
+'''
+
+print("hello world")
+#表示单行注释
+
+'''多行注释'''
+"""多行注释"""
