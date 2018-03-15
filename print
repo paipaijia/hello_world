@@ -1,0 +1,7 @@
+print("hello world")
+
+age = 24
+print("age的变量的值为：%d"%age)
+
+name = "派派嘉"
+print("名字是%s"%name)
