@@ -1,0 +1,6 @@
+age = input("请输入你的年龄：")#input获取的所有数据都是当成字符串的类型
+
+age_num = int(age)#转换类型
+
+if age_num >= 18:
+    print("已成年")
